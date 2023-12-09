@@ -12,7 +12,7 @@ const ImageGenerationForm = () => {
 
     const input = event.target.elements.input.value;
     const response = await fetch(
-      "https://api-inference.huggingface.co/models/prompthero/openjourney",
+      "paste the hugging face api for openjourney or other",
       {
         method: "POST",
         headers: {
