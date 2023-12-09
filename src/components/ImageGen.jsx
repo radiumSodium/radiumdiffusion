@@ -12,7 +12,7 @@ const ImageGenerationForm = () => {
 
     const input = event.target.elements.input.value;
     const response = await fetch(
-      "paste the hugging face api for openjourney or other",
+      "paste the hugging face api for openjourney or other",  //<-------------------------
       {
         method: "POST",
         headers: {
