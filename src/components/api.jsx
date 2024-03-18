@@ -1,2 +1,3 @@
-const API_TOKEN = "your hugging face account access token";
+const API_TOKEN = "";
+// place your access token
 export default API_TOKEN;
